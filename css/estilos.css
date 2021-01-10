@@ -1,0 +1,849 @@
+
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    margin: 0;
+    background-color: #f5f0ed;
+}
+
+}
+
+    
+img {
+    
+    max-width: 100%;
+}
+
+.clase{
+    
+background-image: url(../images/fondito.jpg);
+background-size: cover;
+background-color: white;  
+border: 1px solid black;
+height:663px;
+width: 100%;
+}
+
+@media screen and (max-width: 767px){
+    
+    
+    .clase{
+        
+        
+        width: 100%;
+        float: none;  
+        height: 400px;
+}
+}
+    
+.caja1 {
+    width: 50%;
+    height: 350px;
+    background-color: #d03b40;
+    float:left;
+    text-align: center;
+    
+    
+}
+
+
+@media screen and (max-width: 767px){
+    
+    
+    .caja1, .caja2 {
+        
+        font-size: 14px;
+        height: 350px;
+        width: 50%;
+        position:relative;
+        
+}
+}
+
+.caja2 
+{
+    
+    height: 350px;
+    width: 50%;
+    background-color: #ded6c0;
+    float:right;
+    text-align: center;
+}
+
+
+.texto1 {
+  
+    
+    margin-bottom: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    padding: 2px;
+    font-size:30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; 
+    color:white;
+    line-height: 55px;
+    
+}
+
+@media screen and (max-width: 767px){
+    
+    .texto1 {
+        
+        font-size: 14px;
+        line-height: normal;
+        margin: 0;
+        
+    }
+}
+
+
+
+
+.texto2 {
+     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+     color:white;
+}
+
+
+
+
+
+
+.figura {
+    
+    float:left;
+  
+    padding: 3px;
+    padding-left: 13px;
+    max-width: 100%;
+    
+}
+
+.botones {
+    
+    position: relative;
+    margin-top: 30px;
+    padding-left: 720px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; 
+     color: white;
+  
+}
+
+
+
+
+@media screen and (max-width: 767px){
+    
+    
+    .botones{
+    
+         padding-left: 20px;
+         padding-right: 20px;
+        padding-bottom: 20px;
+        font-size: 4vw; 
+        position: relative;
+        float: right;
+}
+}
+
+
+.texto3 {
+    
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 20px;
+    padding: 1px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #ded6c0;
+    
+}
+
+@media screen and (max-width: 767px){
+    
+    
+   .texto3 {
+        
+        font-size: 12px;
+        float: left;
+       margin: 0;
+     
+      
+    
+     }}
+
+
+
+h2 {
+    color: #ded6c0;
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; 
+    text-align: center;
+    
+    
+}
+
+@media screen and (max-width: 767px){
+    
+    
+   h2 {
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 14px;
+        float: right;
+     
+      
+    
+     }}
+
+
+
+.subtitulorojo {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; 
+    text-align: center;
+    color: #d03b40!important;
+    
+}
+@media screen and (max-width: 767px){
+    
+    
+   .subtitulorojo{
+        margin-right: 60px;
+        margin-left: 15px;
+        font-size: 14px;
+        float: center;
+     
+      
+    
+     }}
+
+
+
+.texto4 {
+    
+    
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 20px;
+    padding: 1px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #d03b40!important;
+    
+    
+}
+
+
+@media screen and (max-width: 767px){
+    
+    
+   .texto4{
+        font-size: 12px;
+        float: left;
+       margin: 2px;
+      
+    
+     }}
+
+.caja4 {
+    
+  background-image: url(../images/Fondo2.jpg);
+  height:549px;
+  width: 100%;
+  background-size: cover;
+  background-color: white;  
+  margin-top: 350px;
+  min-height: inherit;
+
+
+}
+
+@media screen and (max-width: 767px){
+    
+    
+   .caja4{
+      
+       height: 400px;
+    
+     }}
+
+
+
+.texto5 {
+
+ padding: 200px  60px 5px 60px;
+ text-align: center;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: bold;
+ font-size: 32px;
+ color: white;
+   
+}
+
+
+
+@media screen and (max-width: 767px){
+    
+    
+   .texto5{
+        font-size: 30px;
+        line-height: normal;
+      padding-top: 60px;
+    
+     }}
+
+.img {
+    
+     margin-bottom: none;
+    padding-left: 13px; 
+    padding-top: 13px;
+    padding-right: 13px;
+    padding-bottom: none;
+    max-width: 100%;
+}
+
+
+.img3 {
+     margin-bottom: none;
+    padding-left: 13px; 
+    padding-top: 13px;
+    padding-right: 13px;
+    padding-bottom: none;
+    max-width: 100%;
+    
+}
+.img2 {
+    
+ margin-bottom: none;
+    padding-left: 13px; 
+    padding-top: 13px;
+    padding-right: 13px;
+    padding-bottom: none;
+    max-width: 100%;
+}
+
+
+.texto6 {
+ padding: 15px  60px 10px 60px;
+ text-align: center;
+ font-family: 'Open Sans', sans-serif;
+ color: white;
+
+}
+
+.img4  {
+    margin-right: none; 
+     margin-left: none; 
+    margin-bottom: none;
+    padding-left: 13px; 
+    padding-top: 13px;
+    padding-right: 13px;
+    padding-bottom: none;
+    max-width: 100%;
+}
+
+.accion {
+    
+    padding: none;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin: 7px;
+    text-align: center;
+    
+    
+    
+}
+
+h3 {
+    margin: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding-bottom:none;
+    padding-left: 6px; 
+    padding-top: none;
+    padding-right: 20px;
+    text-align: left;
+}
+
+
+.divcuadro {
+    
+          
+  text-align: center;     
+  width: 300px;
+  height: 38px;
+  border: 2px solid white; 
+  margin: 0 auto;
+  
+    
+    
+}
+
+
+
+.opciones {
+    
+  display:flex;
+    height: 300px;
+  width: 200%;
+  background-color: #f5f0ed!important;
+    overflow:visible;
+     margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px){
+    
+    
+    .opciones{
+    
+       display:inline-block;
+        height: 600px;
+        
+    }}
+
+
+
+
+.parrafo {
+    
+    margin: none;
+    float: right;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    padding-bottom:6px;
+    padding-left: 6px; 
+    padding-top: none;
+    padding-right: 24px;
+    text-align: justify;
+    
+}
+
+
+.footer {
+    height: 200px;
+    width: 100%;
+     margin:none;
+    backface-visibility: visible;
+    background-color: #000000;
+    display:inline-block;
+    
+}
+
+.caja10{
+    
+    display:inline-block;
+    width: 100%;
+    height: 350px;
+    background-color: #d03b40;
+    float:left;
+    text-align: center;
+    
+    
+}
+
+.flotar{
+    float:left;
+    padding: 30px;
+    position: relative; 
+    padding-bottom: none;
+    height: 250px;
+    width: 520px;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: none;
+    margin-left:5px;
+   
+ 
+    
+}
+
+
+
+@media screen and (max-width: 767px){
+    
+    
+    .flotar{
+    
+       display:inline-block;
+        
+    }}
+
+.flotar1{
+     float:left;
+    padding: 30px;
+    position: relative;
+    margin-top: 20px;
+    margin-right: none;
+    margin-bottom: none;
+    margin-left:none; 
+    height: 250px;
+    width: 520px;
+    padding-bottom: none;
+}
+
+
+@media screen and (max-width: 767px){
+    
+    
+    .flotar1{
+    
+       display:inline-block;
+        
+    }}
+
+
+.flotar2{
+     float:left;
+    padding: 30px;
+    position: relative;
+    margin-top: none;
+    margin-right: 5px;
+    margin-bottom: none;
+    margin-left:5px;
+    height: 250px;
+    width: 520px;
+    padding-top: none;
+    
+   
+}
+
+
+
+@media screen and (max-width: 767px){
+    
+    .flotar2{
+    
+       display:inline-block;
+        
+    }}
+
+
+.flotar3{
+     float:left;
+    padding: 30px;
+    position: relative;
+    margin-top: none;
+    margin-right: 5px;
+    margin-bottom: none;
+    margin-left:5px;
+    height: 250px;
+    width: 520px;
+    padding-top: none;
+}
+
+
+
+@media screen and (max-width: 767px){
+    
+    
+    .flotar3{
+    
+       display:inline-block;
+        
+    }}
+
+
+.flotar .img {
+    
+  
+  float: left;
+  ;
+}
+
+
+.flotar1 .img4 {
+    
+ 
+  float: left;
+ 
+}
+
+
+.flotar2 .img3 {
+    
+ 
+  float: left;
+
+}
+
+.flotar3 .img2 {
+    
+ 
+  float: left;
+
+}
+
+
+.parrafo1 {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.caja11 {
+    
+   display:inline-block;
+    width: 50%;
+    height: 350px;
+    background-color:     #ded6c0;
+    float:left;
+    text-align: center;  
+    
+}
+    
+
+
+.caja12{
+    
+  height: 350px;
+    width: 50%;
+    background-color: #d03b40!important;
+    float:right;
+    text-align: center;   
+    
+}
+
+.h2rojo {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; 
+    text-align: center;
+    color: #d03b40!important;
+    
+}
+
+.textorojo {
+    
+    
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 20px;
+    padding: 1px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #d03b40!important;
+}
+
+
+.h2gris {
+    
+    
+     color: #ded6c0;
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; 
+    text-align: center;
+    
+}
+
+
+.textogris {
+    
+     margin-left: 100px;
+    margin-right:100px;
+    margin-top: 20px;
+    padding: 1px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #ded6c0;
+    
+}
+
+.foo {
+    
+    
+    width: 100%;
+    font-size: 30px;
+      margin-left: 50px;
+     color:#ded6c0; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; 
+    
+    
+}
+
+
+
+@media screen and (max-width: 767px){
+    
+    .flotar{
+        
+        font-size: 3vw;
+        width: 100%;
+        float: center;
+        height: 200px;
+        position: relative;
+        padding: 10px;
+        margin: 20px;
+       flex-wrap: wrap;
+    }
+    }
+
+
+
+@media screen and (max-width: 767px){
+    
+     
+    .flotar1{
+        
+        font-size: 3vw;
+        width: 100%;
+        float: center;
+        height: 200px;
+        position: relative;
+        padding: 10px;
+        margin: 20px;
+       flex-wrap: wrap;
+    }
+    }
+
+
+
+
+@media screen and (max-width: 767px){
+    
+    .opciones{
+        
+        font-size: 5vw;
+        width: 100%;
+        float: left;
+     
+        height: 500px;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }}
+
+@media screen and (max-width: 767px){
+    
+    .parrafo1{
+        
+        font-size: 3vw;
+     ´  padding: 15px;
+       
+    }}
+
+  @media screen and (max-width: 767px){
+    
+    .parrafo{
+        
+        font-size: 2vw;
+     ´  padding: 15px;
+        }}
+
+
+@media screen and (max-width: 767px){
+    
+    .h3{
+        
+        font-size: 2vw;
+        width: 100%;
+
+     
+    }
+    }
+    
+@media screen and (max-width: 767px){
+    
+    .img,.img4,
+    .img3,.img2{
+        
+        
+        
+      margin-bottom: 19px;
+        margin-top: 19px;
+        width: 65px;
+        height: 65px;
+        display:inline-block;
+
+     
+    }
+    }
+    
+    
+     .caja11, .caja12 {
+        
+        font-size: 14px;
+        height: 350px;
+        width: 50%;
+         position:relative;  }
+    
+    
+    @media screen and (max-width: 767px){
+    
+    
+   body {
+        
+        font-size: 12px;
+         margin: 0;
+    
+        max-width: 100% !important;
+    overflow-x: hidden !important;
+    
+        }}
+     
+       @media screen and (max-width: 767px){
+    
+    
+   .h2rojo {
+         
+       
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 14px;
+        float: right;
+     
+      
+    
+     }}
+        
+        
+        
+@media screen and (max-width: 767px){      
+   .h2gris {
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 14px;
+        float: right;
+     
+      
+    
+     }}
+        
+        
+        
+ @media screen and (max-width: 767px){
+    
+   .textorojo,
+     .textogris{
+
+        font-size: 12px;
+        float: left;
+       margin: 15px;
+     
+      
+    
+     }}
+        
+   
